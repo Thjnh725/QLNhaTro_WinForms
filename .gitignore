@@ -1,0 +1,52 @@
+﻿# ============================
+# GENERAL
+# ============================
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+
+# ============================
+# FOLDERS
+# ============================
+bin/
+obj/
+Debug/
+Release/
+.vs/
+
+# ============================
+# BACKUP / TEMP
+# ============================
+*.tmp
+*.temp
+*.bak
+
+# ============================
+# AUTO-GENERATED
+# ============================
+*.Designer.cs
+!QL_NHATRO.Designer.cs   # GIỮ LẠI DESIGNER CỦA DATASET
+*.resx
+
+# ============================
+# SETTINGS (KHÔNG COMMIT CONNECTION)
+# ============================
+DAL/Properties/Settings.settings
+DAL/Properties/Settings.Designer.cs
+
+# ============================
+# DATASET EXTRA FILES
+# ============================
+*.xsc
+*.xss
+*.xsd.cs
+*.xsd.bak
+
+# ============================
+# LOCAL DATABASE FILES
+# ============================
+*.mdf
+*.ldf
